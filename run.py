@@ -161,5 +161,4 @@ app.register_blueprint(reqinfo)
 if __name__ == '__main__':
     app_options = {'use_reloader': True, 'use_debugger': True}
     # run_simple('172.31.85.11', 5001, app, **app_options)
-
     run_simple('127.0.0.1', 5001, app, threaded=True, **app_options)
